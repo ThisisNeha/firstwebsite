@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tinos&display=swap');
+
+body{
+    color: #40514E;
+    text-align: center;
+    font-family: 'Tinos', serif;
+    margin: 0;
+    background-color: rgb(233, 251, 255);
+}
+
+h1 {
+    font-size: 5em;
+    font-family: 'Great Vibes', cursive;
+    color: #66BFBF;
+    margin: 100px auto 0 auto;
+}
+
+h2{
+    color: #66BFBF;
+    font-size: 3rem;
+}
+
+.head{
+line-height: 2;
+}
+
+h3{
+    color: #66BFBF;
+    font-size: 25px;
+}
+
+p {
+    font-size: 22px;
+    font-family: 'Tinos', serif;
+    line-height: 2;
+}
+
+/* top section */
+/* 1st div */
+.intro{
+    background-color: #E4F9F5;
+    padding-top:30px ;
+}
+
+/* 2 div */
+.top{
+width: 30%;
+margin: auto;
+}
+
+/* images */
+.mountain {
+    position: relative;
+    bottom: 120px;
+
+}
+
+.cloud1 {
+    position: relative;
+    right: 350px;
+    top:20px;
+}
+
+.cloud2 {
+    position: absolute;
+    top:50px;
+    right: 270px;
+}
+
+/* hr */
+hr{
+    border: 6px  dotted #ced1d1;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+/* middle container */
+.mid-c {
+    margin: 100px 0;
+}
+
+.girl-img{
+    width: 15%;
+}
+
+/* skill section */
+.skills {
+    text-align: center;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align:left;
+    line-height: 2;
+   
+}
+
+.skill-img{
+    width: 25%;
+    float: left; 
+    padding-right: 35px;
+}
+
+.skill-img2{
+    width: 30%;
+    float: right; 
+    padding-right: 35px;
+}
+
+/* contact section */
+.contact-me {
+    text-align: center;
+}
+
+/* copyright */
+.bottom-container {
+    text-align: center;
+    background-color: #66BFBF;
+    margin: 100px 0 0;
+    padding: 40px 0 20px;
+}
+
+a{
+    color: #017e83;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #fbfdfd;
+}
+
+.footer{
+color: #017070;
+font-size: 20px;
+padding: 10px 0;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+
+.btn {
+    background: #8bdff1;
+    background-image: -webkit-linear-gradient(top, #3dd0f1, #12B5BD);
+    background-image: -moz-linear-gradient(top, #31D4F9, #12B5BD);
+    background-image: -ms-linear-gradient(top, #31D4F9, #12B5BD);
+    background-image: -o-linear-gradient(top, #1c8ca5, #12B5BD);
+    background-image: -webkit-gradient(to bottom, #31D4F9, #12B5BD);
+    text-decoration: none;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px;
+    -webkit-box-shadow: 0 -1px 20px 0 #FFFFFF;
+    -moz-box-shadow: 0 -1px 20px 0 #FFFFFF;
+    box-shadow: 0 -1px 20px 0 #FFFFFF;
+    text-shadow: 14px 1px 11px #0059A0;
+    border: solid #5bdadf 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #33EDDC 1px;
+    background-color: #004453;
+    
+    background-image: -webkit-linear-gradient(top, #17b0d3, #0eb9c2);
+    background-image: -moz-linear-gradient(top, #16b2d4, #0facb4);
+    background-image: -ms-linear-gradient(top, #1c9cb9, #0a8086);
+    background-image: -o-linear-gradient(top, #1398b6, #2FECF5);
+    background-image: -webkit-gradient(to bottom, #31D4F9, #1bcbd4);
+ }
